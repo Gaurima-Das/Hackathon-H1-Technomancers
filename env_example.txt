@@ -1,0 +1,16 @@
+# Jira Configuration
+JIRA_SERVER=https://your-domain.atlassian.net
+JIRA_EMAIL=your-email@domain.com
+JIRA_API_TOKEN=your-api-token
+
+# Database Configuration
+DATABASE_URL=sqlite:///./database/jira_data.db
+
+# Security
+SECRET_KEY=your-secret-key-here
+
+# Email Configuration (for alerts)
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=your-email@gmail.com
+SMTP_PASSWORD=your-app-password 
