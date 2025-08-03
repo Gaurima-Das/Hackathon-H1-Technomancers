@@ -856,7 +856,7 @@ class JiraDashboard:
                 # OpenAI API Key input
                 openai_api_key = st.text_input(
                     "OpenAI API Key", 
-                    value="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",
+                    value="",
                     type="password",
                     help="Enter your OpenAI API key for AI-powered task organization"
                 )
