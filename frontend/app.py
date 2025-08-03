@@ -853,15 +853,6 @@ class JiraDashboard:
                     help="Choose how to handle meeting time constraints"
                 )
                 
-                '''
-                # OpenAI API Key input
-                openai_api_key = st.text_input(
-                    "OpenAI API Key", 
-                    value="",
-                    type="password",
-                    help="Enter your OpenAI API key for AI-powered task organization"
-                )
-                '''
                 
                 # Outlook credentials (only show if Outlook mode is selected)
                 outlook_client_id = ""
